@@ -1,0 +1,10 @@
+import turtle
+
+def polygon(t, n, length):
+    for i in range(n):
+        turtle.forward(length)
+        turtle.left(360.0/n)
+
+polygon(turtle, 6, 100)
+
+turtle.done()
